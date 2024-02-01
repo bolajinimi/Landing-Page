@@ -30,10 +30,8 @@ export const FooterIcon = styled.div`
     align-items: center;
     justify-content: center;
     gap: 10px;
-    /* margin-top: 0; */
 `
 export const FooterContentWrapper = styled.div`
    width: 147;
-   /* border: 1px solid red; */
 
 `

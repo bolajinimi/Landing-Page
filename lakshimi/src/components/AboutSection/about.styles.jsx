@@ -86,8 +86,8 @@ color: #333333;
    @media screen and (max-width: 768px) {
             width: 355px;
             img{
-                width:250px; 
-                height:250px;
+                width:100%; 
+                height:auto;
             }
 
     }

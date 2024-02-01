@@ -14,13 +14,16 @@ export const HeroContent = styled.div`
   align-items: center;
   justify-content: center;
   /* gap: 20px; */
+  @media screen and (max-width: 768px) {
+    padding-top: 0px;
+  padding-bottom: 0px;
+}
  
 `;
 export const H01 = styled.h1`
 font-family: Oswald;
 font-size: 72px;
 font-weight: 400;
-/* line-height: 88px; */
 letter-spacing: 0em;
 text-align: center;
 color: #fff;
@@ -34,17 +37,20 @@ font-size: 48px;
 line-height: 64px;
 }
 `;
-export const P01 = styled.h1`
+export const P01 = styled.p`
 font-family: Mulish;
 font-size: 16px;
 font-weight: 600;
 line-height: 28px;
 letter-spacing: 0em;
+/* text-align: left; */
 text-align: center;
 color: #FFFFFF;
   @media screen and (max-width: 768px) {
 font-size: 16px;
 line-height: 28px;
+width: 355px;
+
 }
 
  
@@ -52,9 +58,9 @@ line-height: 28px;
 export const ContentWrapper = styled.h1`
       width: 858px;
   @media screen and (max-width: 768px) {
-    padding-right: 20px;
-    padding-left: 20px;
-
+    /* padding-right: 20px;
+    padding-left: 20px; */
+    width: 363px;
   }
 
 

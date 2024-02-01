@@ -37,6 +37,7 @@ font-size: 18px;
 font-weight: 400;
 line-height: 32px;
 letter-spacing: 0em;
+text-align: center;
 
 `
 

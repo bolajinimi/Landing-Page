@@ -1,5 +1,5 @@
 import React from 'react'
-import { SelectedContainer, SelectedContent, SelectedH01, SelectedP01,SelectedCards, SelectedImage01, SelectedCard01, SelectedCard02, SelectedH4, SelectedP3 } from './selected.styles'
+import { SelectedContainer, SelectedContent, SelectedH01, SelectedP01,SelectedCards, SelectedImage01, SelectedCard01, SelectedCard02, SelectedH4, SelectedP3, SelectedImage02 } from './selected.styles'
 import Button  from '../Button'
 import SelectedImage001 from '../../assets/Images/image01.png'
 import SelectedImage002 from '../../assets/Images/image02.png'
@@ -40,9 +40,9 @@ const index = () => {
                 <Button />
             </SelectedCard01>
             <SelectedCard02>
-                    <SelectedImage01>
+                    <SelectedImage02>
                         <img src={SelectedImage002} alt=""/>
-                    </SelectedImage01>
+                    </SelectedImage02>
                     <SelectedContent>
                         <SelectedH4>
                             Premium Honey Lemon Tea

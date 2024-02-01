@@ -6,6 +6,7 @@ export const IndulgeContainer = styled.div`
   background-size: cover;
   height: 640px;
   margin-top: 100px;
+  width: 100%;
 `;
 
 export const IndulgeContent = styled.div`
@@ -16,7 +17,6 @@ export const IndulgeContent = styled.div`
   flex-direction: column;
   align-items: flex-start;
   padding-left: 100px;
- 
   gap: 40px;
  
 `;
@@ -56,8 +56,8 @@ line-height: 28px;
 export const ContentWrapper = styled.div`
     width: 647px;
   @media screen and (max-width: 768px) {
-    padding-right: 20px;
-    padding-left: 20px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
 
   }
 
