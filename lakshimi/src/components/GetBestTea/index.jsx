@@ -1,5 +1,5 @@
 import React from 'react'
-import { GetContainer, GetContent, GetH01, GetP01, GetCards, GetImage01, GetCard01,GetH4, GetP3,ButtonContainer } from './get.styles'
+import { GetContainer, GetContent, GetSmallCard01, GetH01, GetP01, GetCards, GetImage01, GetCard01,GetCard02,GetH4, GetP3,ButtonContainer } from './get.styles'
 import Button  from '../Button'
 import SelectedImage001 from '../../assets/Images/image05.png'
 import SelectedImage002 from '../../assets/Images/image06.png'
@@ -41,7 +41,28 @@ const index = () => {
                 </GetContent>
                
             </GetCard01>
-            <GetCard01>
+             {/* Render GetCard01 for small screens only */}
+        <GetSmallCard01 className="small-screen-only">
+          <GetImage01>
+            <img src={SelectedImage002} alt="" />
+          </GetImage01>
+          <GetContent>
+            <GetH4>
+              With Ice
+            </GetH4>
+            <GetP3>
+              Embrace the refreshing symphony of flavors as you take a cool journey through our teas enjoyed with ice.
+              Immerse yourself in the invigorating fusion of iced tea,
+              where each sip unfolds a delightful dance of chilled sophistication and exceptional taste.
+            </GetP3>
+            <ButtonContainer>
+              <Button>
+                Buy Now
+              </Button>
+            </ButtonContainer>
+          </GetContent>
+        </GetSmallCard01>
+            <GetCard02>
                   
                     <GetContent>
                         <GetH4>
@@ -63,7 +84,7 @@ const index = () => {
                     <GetImage01>
                         <img src={SelectedImage002} alt=""/>
                     </GetImage01>
-            </GetCard01>
+            </GetCard02>
             
         </GetCards>
     </GetContainer>

@@ -4,14 +4,12 @@ import styled from "styled-components";
 export const AboutContainer = styled.div`
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
   background-color: #FFFFFF;
   margin-top: 50px;
   @media screen and (max-width: 768px) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
      margin-left: 20px;
     margin-right: 20px;
    
@@ -32,8 +30,6 @@ export const AboutContainer = styled.div`
 
       @media screen and (max-width: 768px) {
     width: 379px;
-    /* margin-left: 20px;
-    margin-right: 20px; */
      
 }
   
@@ -48,11 +44,8 @@ letter-spacing: 0em;
 text-align: left;
 color: #333333;
 @media screen and (max-width: 768px) {
-    
+  font-size: 14px;
     width: 330px;
-    /* margin-left: 20px;
-    margin-right: 20px; */
-    
 
 }
   
@@ -62,13 +55,12 @@ color: #333333;
     font-family: Bitter;
     font-size: 64px;
     font-weight: 700;
-    /* line-height: 72px; */
     letter-spacing: 0em;
     text-align: left;
     color: #E16E4E;
     margin-bottom: 0px;
     @media screen and (max-width: 768px) {
-        font-size: 48px;
+        font-size: 32px;
 
         line-height: 64px;
 
@@ -83,14 +75,19 @@ color: #333333;
   height: 449px;
   margin-top: 50px;
 
-   @media screen and (max-width: 768px) {
-            width: 355px;
-            img{
-                width:100%; 
-                height:auto;
-            }
-
-    }
+  img {
+  width: 100%;
+  height: auto;
+}
+ @media screen and (max-width: 768px) {
+  
+    width: 320px;  
+    margin-bottom: 0px; 
+img {
+  width: 100%;
+    margin-right: 0px;
+}
+ }
 
 
 
@@ -105,7 +102,7 @@ export const ButtonContainer = styled.div`
     height: 56px;
     background-color: #E16E4E;
 @media screen and (max-width: 768px) {
-  display: none; /* Hide on screens with a maximum width of 768px (mobile devices) */
+  display: none; 
 }
  `;
 

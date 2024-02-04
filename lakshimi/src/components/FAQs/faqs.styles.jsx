@@ -6,7 +6,7 @@ export const FAQContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-  
+
 `
 export const FAQH1 = styled.h2`
 
@@ -18,6 +18,15 @@ letter-spacing: 0em;
 text-align: center;
 margin-bottom: 0px;
 color: #E16E4E;
+@media screen and (max-width: 768px) {
+
+font-size: 24px;
+line-height: 48px;
+
+}
+
+
+
 
 `
 export const FAQP1 = styled.p`
@@ -27,8 +36,11 @@ font-weight: 400;
 line-height: 32px;
 letter-spacing: 0em;
 text-align: left;
-
 margin-bottom: 0px;
+@media screen and (max-width: 768px) {
+  font-size: 16px;
+font-weight: 400;
+}
 
 `
 export const FAQP = styled.p`
@@ -38,6 +50,12 @@ font-weight: 400;
 line-height: 32px;
 letter-spacing: 0em;
 text-align: center;
+@media screen and (max-width: 768px) {
+
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+}
 
 `
 
@@ -49,19 +67,27 @@ line-height: 32px;
 letter-spacing: 0em;
 text-align: left;
 
-
+@media screen and (max-width: 768px) {
+  font-size: 12px;
+font-weight: 400;
+}
 
 `
 export const FAQContent1 = styled.div`
 width: 688px;
-
+@media screen and (max-width: 768px) {
+     width: 366px;
+}
 `
 export const FAQContent = styled.div`
 display: flex;
 align-items: center;
 justify-content: space-between;
 width: 564px;
-
+@media screen and (max-width: 768px) {
+     width: 372px;
+gap: 20px;
+}
 
 
 `
@@ -78,9 +104,6 @@ color: #E16E4E;
 
 export const FAQInnerContent = styled.div`
   width: 465px;
-/* height: 440px; */
-
-
 `
 export const ButtonContainer = styled.div`
     display: flex;
@@ -91,7 +114,7 @@ export const ButtonContainer = styled.div`
     background-color: #E16E4E;
     margin-top: 40px;
 @media screen and (max-width: 768px) {
-  display: none; /* Hide on screens with a maximum width of 768px (mobile devices) */
+  display: none; 
 }
  `;
 
@@ -105,6 +128,18 @@ font-size: 16px;
 font-weight: 600;
 line-height: 24px;
 letter-spacing: 0em;
+
+
+`
+export const FAQDiv = styled.div`
+@media screen and (max-width: 768px) {
+
+width: 374px;
+margin-left: 20px;
+
+}
+
+ 
 
 
 `

@@ -13,7 +13,6 @@ export const HeroContent = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* gap: 20px; */
   @media screen and (max-width: 768px) {
     padding-top: 0px;
   padding-bottom: 0px;
@@ -43,7 +42,6 @@ font-size: 16px;
 font-weight: 600;
 line-height: 28px;
 letter-spacing: 0em;
-/* text-align: left; */
 text-align: center;
 color: #FFFFFF;
   @media screen and (max-width: 768px) {
@@ -58,8 +56,6 @@ width: 355px;
 export const ContentWrapper = styled.h1`
       width: 858px;
   @media screen and (max-width: 768px) {
-    /* padding-right: 20px;
-    padding-left: 20px; */
     width: 363px;
   }
 

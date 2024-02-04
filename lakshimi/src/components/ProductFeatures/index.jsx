@@ -1,11 +1,26 @@
 import React from 'react'
-import { ProductContainer, ProductContent, ProductH01, ProductP01, ProductCards, ProductImage01, ProductCard01, ProductCard02, ProductH4, ProductP3 } from './product.styles'
+import { 
+    ProductContainer, 
+    ProductContent, 
+    ProductH01, 
+    ProductP01, 
+    ProductCards, 
+    ProductImage01, 
+    ProductCard01, 
+    ProductSmallCard01, 
+    ProductCard02, 
+    ProductH4, 
+    ProductP3,
+    ButtonContainer 
+} from './product.styles'
 import Button  from '../Button'
 import SelectedImage001 from '../../assets/Images/image03.png'
 import SelectedImage002 from '../../assets/Images/image04.png'
 
 
+
 const index = () => {
+    
   return (
     <ProductContainer>
         <ProductContent>
@@ -37,6 +52,25 @@ const index = () => {
                 </ProductContent>
                
             </ProductCard01>
+
+
+            <ProductSmallCard01>
+                <ProductImage01>
+                    <img src={SelectedImage002} alt="" />
+                </ProductImage01>
+                <ProductContent>
+                        <ProductH4>
+                            Blended by Japanese tea sommelier Yoko Toda.
+                        </ProductH4>
+                        <ProductP3>
+                             Crafted with precision and expertise, each blend bears the 
+                             mark of Japanese tea sommelier Yoko Toda. Immerse yourself in the artistry of tea, 
+                             perfected by a master for an unparalleled experience in every sip.
+                        </ProductP3>
+                        <Button />
+                </ProductContent>
+               
+            </ProductSmallCard01>
             <ProductCard02>
                   
                     <ProductContent>
@@ -49,7 +83,11 @@ const index = () => {
                         perfected by a master for an unparalleled experience in every sip.
 
                         </ProductP3>
-                        <Button />
+                        <ButtonContainer>
+                        <Button>
+                            Buy Now
+                        </Button>
+                        </ButtonContainer>
                     </ProductContent>
                     
                     <ProductImage01>

@@ -18,7 +18,6 @@ export const FooterP = styled.p`
       font-family: Mulish;
 font-size: 14px;
 font-weight: 500;
-/* line-height: 20px; */
 letter-spacing: 0em;
 color: #4D4D4D;
 

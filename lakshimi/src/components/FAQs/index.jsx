@@ -1,5 +1,5 @@
 import React from 'react'
-import { FAQContainer,FAQContent1, FAQContent, FAQH1, FAQP, FAQP1,FAQP2, Span, FAQInnerContent, ButtonContainer, Button } from './faqs.styles'
+import { FAQContainer,FAQContent1, FAQContent, FAQH1, FAQP, FAQP1,FAQP2, Span, FAQInnerContent, ButtonContainer, Button,FAQDiv } from './faqs.styles'
 
 const index = () => {
   return (
@@ -11,7 +11,7 @@ const index = () => {
             If you don't find what you're looking for, feel free to reach out to us – we're here to help!
         </FAQP>
         </FAQContent1>
-        
+        <FAQDiv>
         <FAQContent>
             <Span>01</Span>
             <FAQInnerContent>
@@ -41,6 +41,8 @@ const index = () => {
                     Buy Now
                 </Button>
             </ButtonContainer>
+
+            </FAQDiv>
       </FAQContainer>
  
   )

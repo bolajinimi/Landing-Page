@@ -35,6 +35,8 @@ const index = () => {
                                 brings a feeling of happiness, a rich flavor. 
                                 It’s a delicious tea, whether hot or iced, straight or as a milk tea.
                                 where every sip is a celebration of taste and tranquility.
+                                straight or as a milk tea.
+                             
                         </SelectedP3>
                 </SelectedContent>
                 <Button />
@@ -56,6 +58,7 @@ const index = () => {
                             leaves to create a tea experience like no other. Elevate your tea 
                             ritual with Lakshimi Premium Honey Lemon Tea, where 
                             every sip is a celebration of taste and tranquility.
+                            every sip is a celebration of
 
                         </SelectedP3>
                     </SelectedContent>
